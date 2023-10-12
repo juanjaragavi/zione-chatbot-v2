@@ -1,7 +1,9 @@
 version: '3.8'
 
 services:
-  juan-jaramillo-service:
+  zione-chatbot-v2:
+    build: 
+      context: .
     image: zione-chatbot-v2
     container_name: zione-chatbot-v2
     ports:
