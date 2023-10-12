@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  juan-jaramillo-service:
+    image: zione-chatbot-v2
+    container_name: zione-chatbot-v2
+    ports:
+      - "8503:8503"
+    volumes:
+      - juan-jaramillo-assets-storage:/app/data
+
+volumes:
+  juan-jaramillo-assets-storage:
